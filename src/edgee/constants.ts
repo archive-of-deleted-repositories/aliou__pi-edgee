@@ -20,11 +20,11 @@ export const EDGEE_GATEWAY_BASE_URL = "https://edgee.io";
 /** Provider base URL handed to Pi's `openai-completions` path (includes `/v1`). */
 export const EDGEE_PROVIDER_BASE_URL = `${EDGEE_GATEWAY_BASE_URL}/v1`;
 
-/** Env var holding the Gateway API key. Never print it. */
-export const EDGEE_API_KEY_ENV = "EDGEE_API_KEY";
-
 /** Header used by the Edgee CLI to attribute requests to a session. */
 export const EDGEE_SESSION_ID_HEADER = "x-edgee-session-id";
+
+/** Env var holding the Gateway API key. Never print it. */
+export const EDGEE_API_KEY_ENV = "EDGEE_API_KEY";
 
 /** GitHub repo for the extension, used for request attribution (Referer). */
 export const EDGEE_REPO_URL = "https://github.com/aliou/pi-edgee";
